@@ -1,0 +1,113 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdf2f8; /* Light pink background */
+    color: #4a4a4a; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #f8bbd0; /* Light pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #ce93d8; /* Soft purple */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ab47bc; /* Deep purple on hover */
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+    background-color: #f3e5f5; /* Very light purple */
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #ec407a; /* Pink shade */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+main p {
+    color: #6a1b9a; /* Deep purple */
+    font-size: 1.1rem;
+}
+
+/* Buttons */
+button {
+    background-color: #ff80ab; /* Bright pink */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #ff4081; /* Vivid pink on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #ba68c8; /* Medium purple */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Card Component */
+.card {
+    background-color: #fce4ec; /* Light pink shade */
+    border: 1px solid #f8bbd0; /* Border */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #ad1457; /* Deep magenta */
+}
+
+.card p {
+    color: #4a148c; /* Deep purple */
+}
+
